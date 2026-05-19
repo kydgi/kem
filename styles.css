@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');;
+
+:root {
+  --base-font: "Prompt", sans-serif;
+  --fancy-font: "Prompt", sans-serif;
+}
+
+/* UK Colors: 
+                #c7c9c8 light gray 
+                #63666a dark gray
+                #15397f dark blue
+                #009bda light blue
+                #0033a0 official blue
+            */
+body,
+section,
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--base-font), sans-serif !important;
+  /* font-family: "Edu SA Beginner", cursive !important; */
+}
+
+h5 {
+  /* font-family: "Edu SA Beginner", cursive !important; */
+  font-family: var(--base-font), sans-serif !important;
+}
+
+.top-module {
+  position: absolute;
+  bottom: 1.5em;
+  left: 20px;
+  z-index: 3333;
+  font-size: 0.5em;
+  opacity: 0.5;
+  font-family: var(--base-font);
+}
+
+.image-title {
+  padding: 1rem;
+  background-color: #33333388;
+  border-radius: 0.5em;
+  opacity: 1;
+  font-family: var(--base-font);
+}
+
+blockquote {
+  padding: 2rem !important;
+  background-color: #33333388;
+  border-radius: 0.5em;
+  font-size: 0.8em;
+  line-height: 1.3em;
+}
+
+.item-download {
+  position: absolute !important;
+  /* left: 0 !important;
+      bottom: 0 !important; */
+  transform: translate(calc(100vw / 2 * -1), 100px) !important;
+  z-index: 9999;
+  font-size: 0.5em;
+  opacity: 1;
+}
+
+.highlight-p {
+  background-color: #63666a;
+  padding: 2px;
+}
+
+.title-slide-font {
+  font-size: 8rem !important;
+  /* font-family: "Edu SA Beginner", cursive; */
+  font-family: var(--base-font), sans-serif !important;
+  font-weight: 900;
+  padding-bottom: 0.5em;
+  text-shadow: 2px 2px 2px #333;
+}
+
+.title-font {
+  font-size: 5rem !important;
+  line-height: 5rem;
+  /* font-family: "Edu SA Beginner", cursive; */
+  font-family: var(--base-font), sans-serif !important;
+  font-weight: 800;
+  text-shadow: 2px 2px 2px #333;
+  /* text-transform: uppercase; */
+}
+
+.sub-title-font {
+  font-size: 4rem !important;
+  line-height: 7rem;
+  /* font-family: "Edu SA Beginner", cursive; */
+  font-family: var(--base-font), sans-serif !important;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px #333;
+  /* text-transform: uppercase; */
+  margin-bottom: 0;
+}
+
+@keyframes shine {
+  0% {
+    color: #fff;
+    text-shadow: 2px 2px 2px #333;
+  }
+
+  50% {
+    color: #ffff00;
+    text-shadow:
+      0 0 1px orange,
+      0 0 2px orange,
+      0 0 3px orange,
+      0 0 4px lightgoldenrodyellow,
+      0 0 5px orange;
+  }
+
+  100% {
+    color: #fff;
+    text-shadow: 2px 2px 2px #333;
+  }
+}
+
+.shine-text {
+  animation: shine 1s 1 ease-in-out;
+}
+
+@keyframes enlarge {
+  0% {
+    transform: scale(1);
+    font-size: 1em;
+  }
+
+  50% {
+    transform: scale(1.4) !important;
+  }
+
+  100% {
+    transform: scale(1);
+    font-size: 1em;
+  }
+}
+
+section a:hover {
+  animation: shine 1s ease-in-out !important;
+}
+
+.logo-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 0;
+  /* margin-top: 1rem; */
+}
+
+body.split-bg .reveal .backgrounds .slide-background.present {
+  background-image: linear-gradient(rgba(32,35,36,0.9), rgba(32,35,36,0.9)), url('https://www.trimarc.org/images/milestone/CCTV_06_275_0788.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+body.split-bg .reveal .backgrounds .slide-background.present .slide-background-content {
+  left: 50% !important;
+  width: 50% !important;
+}
+
+.reveal section.split-slide {
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  text-align: left;
+}
+
+.reveal section.split-slide .split-content {
+  width: 50%;
+  padding-right: 1.5em;
+  box-sizing: border-box;
+}
+
+.reveal section.split-slide .split-content h3 {
+  text-align: left;
+  margin-bottom: 0.5em;
+}
+
+.reveal section.split-slide .split-content ul {
+  display: block;
+  margin-left: 1em;
+}

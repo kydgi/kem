@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>KyFromAbove & Emergency Management</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Edu+SA+Beginner:wght@400..700&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="https://uky-gis.github.io/geo509/slides/dist/reset.css" />
+    <link rel="stylesheet" href="https://uky-gis.github.io/geo509/slides/dist/reveal.css" />
+    <link rel="stylesheet" href="https://uky-gis.github.io/geo509/slides/dist/theme/league-109.css" id="theme" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="https://uky-gis.github.io/geo509/slides/dist/plugin/highlight/zenburn.css"
+        id="highlight-theme" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="reveal">
+        <!-- <div class="top-module">
+            <a target='_blank' href="https://github.com/boydx/inside-outside">Repo</a>
+        </div> -->
+        <!-- https://www.trimarc.org/images/milestone/CCTV_06_275_0788.jpg -->
+        <div class="slides">
+            <section data-background-image="https://www.trimarc.org/images/milestone/CCTV_06_275_0788.jpg" data-pre-load data-background-opacity="0.2"
+                data-background-color="#202324">
+                <span class="title-font">KyFromAbove & Emergency Management</span>
+                <!-- <h5 class="sub-title-font">with published lidar derivatives</h5> -->
+                <div class="logo-row">
+                    <a href="https://kygeonet.ky.gov" target="_blank"><img src="images/dgi-landscape.svg" alt=""
+                            width="200px"> </a>
+                    <img src="images/team-kentucky.svg" alt="" width="150px">
+                </div>
+                <!-- <h4>@<a href="https://boyd.xyz/b" target="_blank">boyd.xyz/b</a></h4> -->
+                <!-- <h2>Welcome</h2> -->
+                <div class="ll">
+                    Campbell County Fire Training Center, Highland Heights<br>
+                </div>
+                <div class='lr'>May 19, 2026</div>
+            </section>
+
+            <section class='left' data-background-image="https://www.trimarc.org/images/milestone/CCTV_06_275_0788.jpg" data-pre-load
+                data-background-opacity="0.1" data-background-color="#202324">
+                <h3>Division of Geographic Information</h3>
+                <ul>
+                    <li class='fragment'>
+                        By statute, maintains statewide geospatial Clearinghouse.
+                    </li>
+
+                    <li class='fragment'>
+                        Located within Commonwealth Office of Technology (COT).
+                    </li>
+                </ul>
+            </section>
+
+            <section class='left' data-background-image="https://www.trimarc.org/images/milestone/CCTV_06_275_0788.jpg" data-pre-load
+                data-background-opacity="0.1" data-background-color="#202324">
+                <h3>Data</h3>
+                <ul>
+                    <li class='fragment'>
+                        Current layers used in Emergency Management.
+                    </li>
+
+                    <li class='fragment'>
+                       Opportunities to improve situational awareness and decision support.
+                    </li>
+
+                </ul>
+            </section>
+
+            <section class='left' data-background-image="images/rapid-deploy.png" data-pre-load  data-background-position="contain"
+                data-background-opacity="1" data-background-color="#202324">
+
+            </section>
+
+            <section class='split-slide'
+                data-state="split-bg"
+                data-background-image="images/gis-model.jpg"
+                data-background-size="contain"
+                data-background-position="center"
+                data-background-color="#202324">
+                <div class="split-content">
+                    <h3>NG911 Layers</h3>
+                    <ul>
+                        <li class='fragment'>
+                            <a target="_blank" href="https://kygeonet.maps.arcgis.com/home/item.html?id=2834b20ab27c4b599759a873e9e2b4d2">Addresses</a>
+                        </li>
+                        <li class='fragment'>
+                            <a target="_blank" href="https://kygeonet.maps.arcgis.com/home/item.html?id=ec199c8fb8b445f49af19234724097e7">Centerlines</a>
+                        </li>
+
+                        <li class='fragment'>
+                            <a target="_blank" href="https://kygeonet.maps.arcgis.com/home/item.html?id=ce13b4dccfa5493999cf75344882d18c">EMS</a>
+                        </li>
+
+                        <li class='fragment'>
+                            <a target="_blank" href="https://kygeonet.maps.arcgis.com/home/item.html?id=18a14bc69747404d988d45ed278b8c87">Law Enforcement</a>
+                        </li>
+
+                        <li class='fragment'>
+                            <a target="_blank" href="https://kygeonet.maps.arcgis.com/home/item.html?id=e8edbf6487454dddac239d3cd1ae14a8">Fire</a>
+                        </li>
+                        <li class='fragment'>
+                            <a target="_blank" href="https://kygeonet.maps.arcgis.com/home/item.html?id=4b7818bca8984c55bd75976b6b86f41a">PSAPs</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class='left' data-background-image="https://www.trimarc.org/images/milestone/CCTV_06_275_0788.jpg" data-pre-load
+                data-background-opacity="0.1" data-background-color="#202324">
+                <h3>Open Data Portal</h3>
+                <ul>
+                    <li class='fragment'>
+                        What other layers could help?
+                    </li>
+                    <li class='fragment'>
+                        Syncing on-premises data with ArcGIS Online (AGOL) and Open Data Portal.
+                    </li>
+                    <li class='fragment'>
+                        <a href="https://opengisdata.ky.gov/" target="_blank">Open Data Portal</a>
+                    </li>
+                </ul>
+            </section>
+            
+            <section class='left' data-background-image="https://www.trimarc.org/images/milestone/CCTV_06_275_0788.jpg" data-pre-load
+                data-background-opacity="0.1" data-background-color="#202324">
+                <h3>Bringing it together</h3>
+                <ul>
+                    <li class='fragment'>
+                        View and add layers without login to AGOL
+                    </li>
+                    <li class='fragment'>
+                        integrates with KyFromAbove oblique imagery.
+                    </li>
+                    <li class='fragment'>
+                        <a href="https://kygeonet.maps.arcgis.com/home/item.html?id=97cd307c797e48359a33898b2e306998" target="_blank">View map</a>
+                    </li>
+                </ul>
+            </section>
+            <section class='left' data-background-image="https://www.trimarc.org/images/milestone/CCTV_06_275_0788.jpg" data-pre-load
+                data-background-opacity="0.1" data-background-color="#202324">
+                <h3>KyFromAbove</h3>
+                <ul>
+                    <li class='fragment'>
+                        Ky Aerial Photography and Elevation Program.
+                    </li>
+                    <li class='fragment'>
+                        Up to 9 distinct assets statewide, including oblique imagery.
+                    </li>
+                    <li class='fragment'>
+                        <a href="https://kyfromabove.ky.gov/" target="_blank">KyFromAbove</a>
+                    </li>
+                </ul>
+            </section>
+
+             <section class='split-slide'
+                data-state="split-bg"
+                data-background-image="./images/kyfromabove.png"
+                data-background-size="contain"
+                data-background-position="center"
+                data-background-color="#202324">
+                <div class="split-content">
+                    <h3>Future</h3>
+                    <ul>
+                        <li class='fragment'>
+                            $12 million in funding over next 2 years.
+                        </li>
+                        <li class='fragment'>
+                            Complete Phase 3 elevation.
+                        </li>
+
+                        <li class='fragment'>
+                            Two-thirds of state imagery with obliques.
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+
+            <section class='left' data-background-image="https://www.trimarc.org/images/milestone/CCTV_06_275_0788.jpg" data-pre-load
+                data-background-opacity="0.1" data-background-color="#202324">
+                <h3>In development</h3>
+                <ul>
+                    <li class='fragment'>
+                        KyFromAbove <a href="https://kygislicserv.ky.gov/mini-apps/locate-minmax/?lat=37.83749&lng=-85.12474&zoom=8&base=tcm" target="_blank">Elevation Explorer</a>
+                    </li>
+                    <li class='fragment'>
+                        Four-way <a href="https://kygislicserv.ky.gov/mini-apps/oblique-service/" target="_blank">Oblique Service</a>
+                    </li>
+                    <li class='fragment'>
+                        URL endpoints for direct access to imagery and elevation data. 
+                    </li>
+                </ul>
+            </section>
+            <section data-background-image="https://www.trimarc.org/images/milestone/CCTV_06_275_0788.jpg" data-pre-load data-background-opacity="0.2"
+                data-background-color="#202324">
+                <h3>What services would you like to see?</h3>
+                
+                <img src="images/dgi-landscape.svg" alt="" width="300px">
+            </section>
+        </div>
+    </div>
+
+    <script src="https://uky-gis.github.io/geo509/slides/dist/reveal.js"></script>
+    <script src="https://uky-gis.github.io/geo509/slides/dist/plugin/notes/notes.js"></script>
+    <script src="https://uky-gis.github.io/geo509/slides/dist/plugin/markdown/markdown.js"></script>
+    <script src="https://uky-gis.github.io/geo509/slides/dist/plugin/highlight/highlight.js"></script>
+    <script>
+        // More info about initialization & config:
+        // - https://revealjs.com/initialization/
+        // - https://revealjs.com/config/
+        Reveal.initialize({
+            hash: true,
+            backgroundTransition: "fade",
+            // Transition style
+            transition: "fade", // none/fade/slide/convex/concave/zoom
+
+            // Transition speed
+            transitionSpeed: "fast", // default/fast/slow
+
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+        });
+    </script>
+</body>
+
+</html>
